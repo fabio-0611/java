@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(73, 73, 242);
+    color: white;
+    font-size: 18pt;
+    font-family: 'Times New Roman', Times, serif;
+}
+div h1{
+    height: auto;
+    display: flex;
+    font-weight: bold;
+    font-size: 50px;
+    color: rgb(214, 45, 45);
+    justify-content: center;
+    border-radius: 20px;
+    padding: 2rem;
+    box-shadow: 0px 0px 100px 190px black;
+    align-items: center;
+}
+div{
+    background-color: rgb(169, 245, 219);
+    padding: 2rem;
+    height: auto;
+    border-radius: 10px;
+}
