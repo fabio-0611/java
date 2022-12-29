@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Tipos de Variáveis</title>
+</head>
+<body>
+    <div>
+        <h1>Fazendo operações matemáticas</h1>
+    
+    <script>
+        //var n1=Number.parseInt(window.prompt('Digite um número: '));//parse mudando de strig para numero
+        //var n2= Number.parseInt(window.prompt("Digite o segundo número: "));
+
+        /* Colocando number apenas ela mesmo se identifica se é float ou int */
+        var nome= window.prompt('Digite o seu nome:');
+        var sobreNome= window.prompt('Digite o seu sobre nome: ')
+        var n1=Number(window.prompt(`${nome} vamos fazer uma adição: `));//parse mudando de string para numero
+        var n2= Number(window.prompt(`${nome} digite o segundo número: `));
+        soma= n1+n2
+        window.alert(`${nome} a soma é :` +soma);//cocactenando
+            
+        
+
+        /* Multiplicação */
+        window.alert(`Agora iremos fazer uma multiplicação ${nome}`);
+        var m1=Number(window.prompt(`Digite o primeiro número para a multiplicação:`));
+        var m2=Number( window.prompt(`Muito bem, agora digite o segundo número: `));
+        multiplicar =m1*m2
+        window.alert(`A multiplicação dos números digitado é `+multiplicar);
+
+        /* Divisão */
+        var div1=Number(window.prompt(`${nome} ${sobreNome} para terminar, digite o primeiro número para fazer a divisão:`));
+        var div2=Number(window.prompt(`digite o segundo número: `));
+        var divisao = div1/div2;
+        window.alert(`O valor da divisão ${nome} ${sobreNome} é: ${divisao}`);
+
+        
+        document.writeln(`<br> Olá, seu nome é: <i> <strong>${nome}</i></strong>.<br><br>
+                         E o seu sobre nome é <i><strong>${sobreNome}!<br><br></i></strong>
+                         o seu nome inteiro é :<i><strong>${nome} ${sobreNome}</i></strong>`);//responsavel por imprimir no lado do servidor
+                         /* Essa parte a menssagem é colocado no lado do navegador */
+        
+        document.writeln(`Você digitou o primeiro número= ${n1} e o segundo número= ${n2} a soma dos dois é: <strong> ${soma}</strong> <br>`);
+        document.writeln(`<i></strong>A multiplicação dos números digitados ${nome} é : ${multiplicar}</i></strong>`)
+        document.writeln(`<br>A divisão dos números ${nome} ${sobreNome} é : <strong>${divisao}`);
+
+
+    </script>
+    </div>
+</body>
+</html>
