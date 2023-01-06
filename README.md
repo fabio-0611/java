@@ -36,6 +36,7 @@ Como uma linguagem multiparadigma, o JavaScript suporta estilos de programação
 - `Pasta css`:  Tem um arquivo referente a estilização das páginas do projeto;
 - `Pasta java`:  Pasta que contém os arquivos em java que são direcionados de acordo com cada exercício;
 - `Readme.md`:  Descrição do projeto markdown;
+- `Pasta Function`: Nesta pasta tem uma pasta Css com arquivo style.css para estilização da página,pasta Java com arquivo funcoes.js para fazer toda a interação com a página principal, o arquivo funcoes.html página do sistema onde trabalhamos com funções em java e com algumas operações matemáticas, pasta Imagens tem um vídeo do projeto rodando;
  <br><br>
 
 ## Serviços utilizados para pesquisas
