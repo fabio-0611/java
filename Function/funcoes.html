@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./Css/style.css">
+    <title>Trabalhando com funções</title>
+    <script src="./Java/funcoes.js"></script>
+
+    <!-- Script 
+    <script>
+        window.alert("Borá trabalhar com funções!");
+        var nome =String(window.prompt(`Digite o seu nome:`));
+        window.alert(`${nome} sejá bem vindo ao sistema!`)
+
+        document.writeln(`${nome} bora trabalhar com funções`)
+    </script> -->
+</head>
+<body>
+    <div class="card">
+        <h1>Trabalhando com functions</h1>
+    </div>
+    
+    <div class="card">
+        <div id="topo" onmouseout="topo()">
+            <h1>Valor da operação feita</h1>
+        </div>
+    </div>
+  
+<div class="container">
+    <div id="area" onclick="clicar ()" onmouseenter="entrar()" onmouseout="sair ()">
+        <div>
+           <h2> Mudando de cor ao passar o mouse</h2>
+
+        </div>
+    </div>
+</div>
+
+<div class="card">
+    <h1>Somando valores</h1>
+</div>
+<div class="container-card">
+    <h1>Adição</h1>
+</div>
+
+    <div class="container-resultado">
+        <input type="number" name="txt1" id="txt1"><p>+</p>
+        <input type="number" name="txt2" id="txt2">
+        <input type="button" value="Somar" id="botao" onclick="somar()">
+        <div id="resultado" class="card">
+        <p>Resultado</p></div>
+    </div>
+
+    <div class="container-card">
+        <h1>Subtração</h1>
+    </div>
+    <div class="container-resultado">
+
+    <input type="number" name="sub1" id="sub1"><p>-</p>
+    <input type="number" name="sub2" id="sub2">
+    <input type="button" value="Subtrair" id="botao"onclick="subtrair()">
+    <div id="subtracao" class="card"> 
+        <p>Resultado</p>
+    </div>
+</div>
+
+<div class="container-card">
+    <h1>Multiplicação</h1>
+</div>
+<div class="container-resultado">
+
+<input type="number" name="mult1" id="mult1"><p>*</p>
+<input type="number" name="mult2" id="mult2">
+<input type="button" value="Multiplicação" id="botao"onclick="multiplicacao()">
+<div id="multiplicacao" class="card"> 
+    <p>Resultado</p>
+</div>
+</div>
+
+<div class="container-card">
+    <h1>Divisão</h1>
+</div>
+<div class="container-resultado">
+
+<input type="number" name="div1" id="div1"><p>/</p>
+<input type="number" name="div2" id="div2">
+<input type="button" value="Divisão" id="botao"onclick="dividir()">
+<div id="dividir" class="card"> 
+    <p>Resultado</p>
+</div>
+</div>
+</body>
+</html>
