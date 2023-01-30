@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="./Java/if.js"></script>
+    <link rel="stylesheet" href="./Css/style.css">
+    <title>Condição if</title>
+</head>
+<body>
+    <header class="container">
+        <h3>Verificador de idade:</h3>
+        <section>
+            <div>
+                <p>
+                    Ano de Nascimento
+                    <input type="number" name="txtano" id="txtano">
+                </p>
+                <p>Sexo:
+                    <input type="radio" name="radsex" id="mas" checked>
+                    <label for="mas">Masculino</label>
+                    <input type="radio" name="radsex" id="fem">
+                    <label for="fem">Feminina</label>
+                </p>
+                <p>
+                    <input type="button" value="Verificar" id="btn" onclick="verificar()">
+                </p>
+            </div>
+            <div id="res">
+                <p>Resultado</p>
+            </div>
+        </section>
+    </header>
+
+<div class="container">
+    <h3>Vamos vê se você está apto a votar:</h3>
+    <div class="container-card">
+        <input type="text" name="texto" id="n1"placeholder="Digite à sua idade">
+         <input type="button" value="Resultado" id="btn" onclick="valor()">
+         <div id="resultado">
+             <p>Resultado</p>
+         </div>
+     </div>
+</div>
+
+<div class="container">
+    <h3>Escolha o seu candidato:</h3>
+    <div class="container-card">
+        <ol>
+            <li>Marli</li>
+            <li>João</li>
+            <li>José</li>
+            <li>Fagundes</li>
+        </ol>
+        <input type="text" name="c" id="candidato" placeholder="Digite um número">
+        <input type="button" value="Resultado" id="btn" onclick="prefeito()"/>
+        <div id="cand">
+            <p>Resultado</p>
+        </div>
+    </div>
+</div>
+
+<div class="container">
+    <h3>Será que você esta apto para tirar a habilitação</h3>
+    <div class="container-card">
+        <input type="text" name="texto" id="n" placeholder="Digite à sua idade">
+        <input type="button" value="Resultado" id="btn" onmouseout="sair()" onclick="entrar()">
+        <div id="result">
+            <p>Resultado</p>
+        </div>
+    </div>
+</div>
+
+<div class="container">
+   <H3>Vamos ver se você passou de ano</H3>
+   <div class="container-card">
+    <input type="text" name="txt" id="n2" placeholder="1º nota"><br>
+    <input type="text" name="txt" id="n3" placeholder="2ª nota">
+    <input type="button" value="Resultado" id="btn" onclick="opt()">`
+    <div id="media">
+        <p>Resultado</p>
+    </div>
+</div>
+</div>
+<footer>
+    <p>&copy; Fábio Rocha de lima</p>
+</footer>
+
+</body>
+</html>
